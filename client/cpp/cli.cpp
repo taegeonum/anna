@@ -13,6 +13,8 @@
 //  limitations under the License.
 
 #include <fstream>
+#include <iostream>
+
 
 #include "client/kvs_client.hpp"
 #include "yaml-cpp/yaml.h"

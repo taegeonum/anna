@@ -17,6 +17,7 @@
 
 #include <fstream>
 #include <string>
+#include <iostream>
 #include <unistd.h> // for ftruncate(2)
 
 #include "base_kv_store.hpp"
@@ -777,7 +778,7 @@ public:
     PriorityValue input_value;
     input_value.ParseFromString(serialized);
 
-    int fd = open(fname(key).c_str(), O_RDWR | O_CREAT);
+    int fd = open(fname(key).c_str(), O_RDWR | O_CREAT, 644);
     if (fd == -1) {
       std::cerr << "Failed to open file" << std::endl;
       return 0;

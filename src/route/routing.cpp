@@ -14,6 +14,7 @@
 
 #include "route/routing_handlers.hpp"
 #include "yaml-cpp/yaml.h"
+#include <iostream>
 
 hmap<Tier, TierMetadata, TierEnumHash> kTierMetadata;
 unsigned kDefaultLocalReplication;

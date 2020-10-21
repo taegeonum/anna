@@ -14,6 +14,7 @@
 
 #include "kvs/kvs_handlers.hpp"
 #include "yaml-cpp/yaml.h"
+#include <iostream>
 
 // define server report threshold (in second)
 const unsigned kServerReportThreshold = 15;

@@ -13,6 +13,7 @@
 //  limitations under the License.
 
 #include <stdlib.h>
+#include <iostream>
 
 #include "benchmark.pb.h"
 #include "client/kvs_client.hpp"

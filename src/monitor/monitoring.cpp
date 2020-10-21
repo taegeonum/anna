@@ -16,6 +16,7 @@
 #include "monitor/monitoring_utils.hpp"
 #include "monitor/policies.hpp"
 #include "yaml-cpp/yaml.h"
+#include <iostream>
 
 unsigned kMemoryThreadCount;
 unsigned kEbsThreadCount;
